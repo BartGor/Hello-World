@@ -10,9 +10,12 @@ public class Main {
         x--;
         System.out.println(x);
 
+
+
+
         System.out.print("Wprowadz liczbę: ");
-        int luckyNum = userInput.nextInt();
-        System.out.println("Twoja liczba to: "+luckyNum);
+        int inputNum = userInput.nextInt();
+        System.out.println("Twoja liczba to: "+inputNum);
 
         System.out.println("Hello World!");
     }
