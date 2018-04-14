@@ -9,11 +9,11 @@ public class BmiCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Podaj wsrost: ");
-        double height = sc.nextDouble();   // wztrost w metrach
+        double height = sc.nextDouble() / 100;   // wztrost w cm
         System.out.print("Podaj wagę: ");
         double weight = sc.nextDouble();     //waga w kg
 
-        double bmi = weight / pow(height, 2);
+        double bmi = weight / pow(height, 2); //BMI = waga/wzrost^2
 
         System.out.println("Twój współczynnik BMI wynosi: " + String.format("%.2f", bmi));
 

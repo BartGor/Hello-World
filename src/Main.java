@@ -4,12 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-
-        System.out.println("Hello World!");
+        char a = 68;
+        System.out.println(a);
+        int x = 3;
+        x--;
+        System.out.println(x);
 
         System.out.print("Wprowadz liczbę: ");
         int luckyNum = userInput.nextInt();
         System.out.println("Twoja liczba to: "+luckyNum);
 
+        System.out.println("Hello World!");
     }
 }
